@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PARSE"
+        android:id="@+id/click"
+        android:fontFamily="@font/poiret_one"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:layout_below="@+id/data"
+        android:background="@drawable/ripple_click"/>
+
+
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poiret_one"
+            android:hint="For Parsing data click below PARSE button"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="#030303"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/go_to_map"
+        android:layout_centerHorizontal="true"
+        android:text="Click here to Find Location"
+        android:textStyle="bold"
+        android:fontFamily="@font/poiret_one"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/go_to_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/ripple_location"
+        android:fontFamily="@font/poiret_one"
+        android:padding="16dp"
+        android:text="Find Location"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
